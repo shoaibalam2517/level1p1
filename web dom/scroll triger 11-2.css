@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,
+body
+{
+    height: 100%;
+    width: 100%;
+    
+}
+
+#page1
+{
+    height: 100%;
+    width: 100%;
+    background-color: #1D704C;
+     /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page1 img 
+{
+   
+}
+
+#page2
+{
+    height: 100%;
+    width: 100%;
+    background-color: #1D704C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#page3
+{
+    height: 100%;
+    width: 100%;
+    background-color: #1D704C;
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+

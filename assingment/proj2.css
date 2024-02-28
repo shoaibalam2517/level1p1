@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#a{ 
+    
+    overflow: hidden ;
+    position: relative;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 600px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+img{
+
+    
+    transition: cubic-bezier(0.19, 1, 0.22, 1);
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 600px;
+    width: 400px;
+    background-size: cover;
+    /* align-items: center; */
+    /* justify-content: center ; */
+
+}
+
+img:hover{
+    height: 70%;
+}

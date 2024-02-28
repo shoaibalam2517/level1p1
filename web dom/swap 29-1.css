@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #ba9264;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+img #img1
+{
+    height: 350px;
+    width: 350px;
+
+}
+img #img2
+{
+    height: 350px;
+    width: 350px;
+
+}
+
+button
+{
+    font-size: 40px;
+    font-weight: 300;
+    padding: 10px;
+    background-color: white;
+    color: #000;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+button:active
+{
+    scale: 0.95;
+}

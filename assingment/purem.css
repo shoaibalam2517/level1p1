@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+
+#page1
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(73, 133, 198, 0.719);
+    padding: 20px 30px;
+    
+
+}
+#nav
+{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(255, 255,255);
+    border: 1px solid black;
+    /* margin-top: 10px; */
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* gap: 80px; */
+    position: relative;
+
+}
+h4
+{
+    /* margin-right: 400px; */
+    /* padding-right: 600px; */
+}
+
+h6{
+    /* padding-left: px; */
+    margin-right: 80px;
+    /* gap: 40px; */
+}
+
+input type

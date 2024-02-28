@@ -1,0 +1,167 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Gilroy-Light;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+#main
+{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#nav
+{
+    height: 60px;
+    width: 100%;
+    /* background-color: lightseagreen; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+#nav-part1
+{
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-transform: capitalize;
+    /* background-color: ; */
+
+}
+
+#nav-part1 h3
+{
+    border: none;
+    border: 1px solid black;
+    padding: 8px 10px;
+    border-radius: 17px ;
+
+}
+
+#nav-part1 i
+{
+    padding: 8px 20px;
+    border: none;
+    border: 1px solid black;
+    border-radius: 13px;
+}
+
+#nav-part2
+{
+    /* font-size: 14px; */
+    text-transform: uppercase;
+}
+
+#nav-part2 h1
+{
+    font-size: 22px;
+    font-weight: 500;
+
+}
+
+
+#nav-part3
+{
+    font-size: 20px;
+    /* padding: 5px 10px; */
+}
+
+#nav-part3 button
+{
+    font-size: 13px;
+    font-weight: 200;
+    padding: 8px 10px;
+    border: none;
+    border: 1px solid black;
+    border-radius: 30px;
+    /* background-color: #fff; */
+
+}
+#btn1 
+{
+    /* color: white; */
+    background-color: white;
+}
+#btn2 
+{
+    color: white;
+    background-color: rgb(248, 97, 42);
+}
+
+#main>h1
+{
+    font-size: 150px;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+
+img
+{
+    height: 450px;
+    width: 350px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+}
+#img1
+{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img2
+{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img3
+{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+ 
+
+#main>h2
+{
+    font-size: 18px;
+    font-weight: 500;
+    position: absolute;
+    top: 90%;
+    left: 3%;
+    text-transform: capitalize;
+}
+#icon
+{
+    font-size: 21px;
+    font-weight: 500;
+    position: absolute;
+    top: 87%;
+    left: 90%;
+}
+
+h5
+{
+    font-size: 18px;
+    font-weight: 500;
+    position: absolute;
+    top: 90%;
+    left: 88%;
+    margin-top: 5px;
+}
+
+}

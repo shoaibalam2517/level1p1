@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+#page1
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    /* position: relative; */
+    
+}
+
+#blurred
+{
+    height: 550px;
+    width: 600px;
+    /* background-color: aqua; */
+    background: linear-gradient(rgba(237, 43, 75, 0.929),rgb(150, 37, 255),rgba(140, 52, 223, 0.895));
+    filter: blur(110px);
+    position: absolute;
+    /* box-shadow: 3px 20px 90px blueviolet; */
+    top: -50%;
+    border-radius: 50%;
+    left: 30%;
+    transform: translate(-40%,);
+    
+}
+#logobg
+{
+    height: 60px;
+    width: 60px;
+    background-color: blueviolet;
+    margin-top: 45px;
+    margin-left: 40px;
+    border-radius: 50%;
+    position: relative;
+}
+img
+{
+
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    /* padding: 10px,10px; */
+    object-fit: cover;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+#nav
+{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    /* justify-content:space-evenly; */
+    /* margin-top: 20px; */
+    
+}
+
+#nav h3
+{
+    font-size: 25px;
+    font-family: ;
+    font-weight: 525;
+    margin-right: 55%;
+    color: white;
+    text-transform: capitalize;
+    margin-left: 6px;
+    margin-top: 50px;
+    line-height: 20px;
+
+}
+#nav h3 span{
+    font-size: 12px;
+    font-weight: 300;
+    /* margin-top: px; */
+}
+#nav h6
+{
+    color: grey;
+    margin-right: 12px;
+
+}
+#nav button
+{
+    font-size: 14px;
+     border: none; 
+    margin-right: 35px;
+    color: white;
+    background-color: black;
+    /* position: absolute; */
+}
+h1
+{
+    font-size: 80px;
+    color: white;
+    text-transform: capitalize;
+    /* top: 20%; */
+    /* left: 50%; */
+    /* color: linear-gradient(blueviolet,purple); */
+    transform: translate(35%,50%);
+    text
+    line-height: 100px;
+    /* position: relative; */
+}
+#page1 h1:span
+{
+    /* position: absolute; */
+    justify-content: center;
+
+    text-align: center ;
+    /* color: li; */
+    /* text-wrap: ; */
+    /* margin-left: 100px; */
+    /* padding-left: 900px; */
+    
+}
+#page1 p
+{
+    /* position: absolute; */
+    color: white;
+    /* transform: translate(45%,99%);     */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* padding-right: 5px; */
+    margin-top: 125px;
+    margin-left: 550px;
+}
+#page1 h6
+{
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 590px;
+
+}
+i{
+    margin-left: 80px;
+    padding-right: 10px ;
+}
+
+h4
+{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-e; */
+    color: white;
+    margin-top: 50px;
+    margin-left: 250px;
+    padding-left: 10px;
+}
+
+button#last
+{
+    margin-top: 80px;
+    margin-left: 600px;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 8px 8px;
+    border-radius: 5px ;
+    border: none;
+    background-image: linear-gradient(purple,rgb(148, 66, 225),blueviolet);
+    box-shadow: 5px 30px 89px blueviolet;    
+}
+
+#page2
+{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+
+
+}
+h5
+{
+    color: red;
+    /* margin-top: 10px;     */
+    padding-top: 51px;
+    text-align: center;
+    /* padding-right: 5px; */
+    /* justify-content: space-between; */
+}
+i #i2
+{
+    margin-left: 100px;
+    
+}
+
+#page3
+{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+}

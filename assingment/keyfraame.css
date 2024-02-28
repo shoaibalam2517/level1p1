@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+
+#main
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2014/04/12/330551/185c99304364bba58fe8bfe3765fcf64.jpg);
+    background-position: cover;
+    
+
+}
+
+#space
+{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2014/04/12/330551/185c99304364bba58fe8bfe3765fcf64.jpg);
+
+    background-position: cover;
+
+
+}
+#planet
+{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    background-image: url(https://images.pond5.com/3d-ufo-rotates-black-background-footage-249999679_iconl.jpeg);
+    /* background-color: red; */
+    
+
+}

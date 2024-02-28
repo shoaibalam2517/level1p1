@@ -1,0 +1,37 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+
+#cursor1
+{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+}
+
+/* #cursor2
+{
+    height: 16px;
+    width: 16px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#cursor3
+{
+    height: 14px;
+    width: 14px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+} */

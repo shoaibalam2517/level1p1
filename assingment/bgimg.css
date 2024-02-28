@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+
+#img
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/id/1041987338/photo/mans-hand-scratches-the-cute-dog-on-his-knees-behind-his-ear-and-she-smiles-quite-and-opened.jpg?s=612x612&w=is&k=20&c=hw_pHOj9TczM0vGdfY8qQVE_iYvWy5yzNaX_Iid1XCs=);
+    background-size: cover;
+}
+
+h1
+{
+    color: brown;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Comic Gecko Pro';
+    font-weight: 300;
+
+}
+
+h2
+{
+    color: black;
+    font-size: 30px;
+    text-align: right;
+}
+
+h3
+{
+    color:black;
+    font-size: 20px;
+    text-align:end;
+}

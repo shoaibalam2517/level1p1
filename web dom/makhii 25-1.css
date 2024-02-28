@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#field
+{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+img{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    
+
+}
+button
+{
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    position: absolute;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+button:active
+{
+    scale: 0.94;
+}

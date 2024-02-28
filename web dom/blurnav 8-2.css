@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,
+body
+{
+    height: 100%;
+    width: 100%;
+    
+}
+body
+{
+    overflow: hidden;
+}
+#main
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1496134732667-ae8d2853a045?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);    
+    background-size: cover;
+    background-position: center;
+}
+#float
+{
+    height: 100%;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.499);
+    backdrop-filter: blur(6px);
+    position: absolute;
+    right: 0%;
+    right: -40%;
+
+}
+#float h4
+{
+    font-size: 45px;
+    font-weight: 500;
+    /* font-style: Cutie Maggie Demo; */
+    margin-top: 20px;
+    padding-left: 50px;
+}
+#float i 
+{
+    font-size: 28px;
+    /* margin-top: 200px; */
+    padding-left: 90%;
+    
+    cursor: pointer;
+}
+#float i:active
+{
+    scale: 0.85;
+}
+
+#nav
+{
+    height: 70px;
+    width: 100%;
+    /* background-color: #fbf9f956; */
+    /* backdrop-filter: blur(5px); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#nav h3
+{
+    font-size: 35px;
+    padding: 15px;
+    /* color: rgba(7, 17, 111, 0.923); */
+    color: rgba(245, 222, 179, 0.889);
+}
+
+#nav i 
+{
+    font-size: 30px;
+    padding-right: 20px;
+    /* margin-top: 20px; */
+    cursor: pointer;
+        color: rgba(245, 222, 179, 0.889);
+
+
+}
+
+#nav i:active
+{
+    scale: 0.85;
+}

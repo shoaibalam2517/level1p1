@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+#box
+{
+    height: 400px;
+    width: 400px;
+    background-color: rgba(67, 112, 22, 0.863);
+}
+
+button
+{
+    padding: 10px 15px;
+    background-color: rgba(56, 109, 4, 0.866);
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-size: 32px;
+}
+

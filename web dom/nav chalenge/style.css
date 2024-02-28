@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+#nav
+{
+    padding: 40px 50px;
+    background-color: royalblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+button
+{
+    background-color: crimson;
+    padding: 14px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+#full
+{
+    background-color: lightseagreen;
+    font-size: 25px;
+
+
+}
+
+#

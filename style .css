@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+h1{
+    color:whitesmoke;
+    background-color:rgb(122, 36, 202);
+    font-style:oblique;
+    font-size: 9000;
+    font-weight: 6000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 

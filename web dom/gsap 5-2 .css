@@ -1,0 +1,22 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: River Adventurer;
+    color: #F8FAE5;
+}
+html,
+body
+{
+    height: 100%;
+    width: 100%;
+    
+}
+#box
+{
+    height: 400px;
+    width: 400px;
+    background: conic-gradient(violet,indigo,blue,green,yellow,orange,red,violet) ;
+    /* background-color: violet; */
+    border-radius: 50%;
+}

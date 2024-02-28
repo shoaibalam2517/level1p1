@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: River Adventurer;
+}
+html,
+body
+{
+    height: 100%;
+    width: 100%;
+    
+}
+body
+{
+    overflow: hidden;
+}
+#page
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1568900311962-66498d9e9daf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    
+}
+#float
+{
+    height: 100%;
+    width: 35%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.73);
+    right: -35%;
+    border-radius: 15px;
+}
+#float i
+{
+    font-size: 35px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-left: 90%;
+    cursor: pointer;
+}
+#float i:active
+{
+    scale: 0.90;
+}
+#float h5
+{
+    font-size: 45px;
+    font-weight: 100;
+    margin-left: 100px;
+    margin-bottom: 80px;
+    /* cursor: p; */
+}
+
+#nav
+{
+    height: 50px;
+    width: 100%;
+    /* background-color: #ffffff45; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #E0CCBE;
+    backdrop-filter: blur(1px);
+}
+#nav h4
+{
+    font-size: 40px;
+    font-weight: 100;
+    padding-left: 30px;
+}
+#nav i 
+{
+    font-size: 40px;
+    padding-right: 30px;
+    cursor: pointer;
+
+}
+#nav i:active
+{
+    scale: 0.90;
+} 
+
+#matter
+{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    overflow: hidden;
+    /* overflow: auto;
+    overflow-x: auto;
+    overflow-y: hidden; */
+
+}
+
+img #img1
+{
+    background-size: cover;
+    background-position: center;
+
+}

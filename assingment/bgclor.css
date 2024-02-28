@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+h1{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    height: 50%;
+    width: 50%;
+    text-align: center;
+    font-style: initial;
+    font-family: 'fantasy';
+    
+}
+#box
+{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+}

@@ -1,0 +1,86 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+body{
+   
+    background: radial-gradient( rgb(17, 154, 17), rgb(121, 246, 121));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+}
+#card
+{
+    height: 550px;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    border-bottom: 5px solid #000;
+    border-right: 3px solid #000;
+    /* white-space: nowrap; */
+    /* overflow-x: auto;
+   
+    /* overflow-y: hidden;  */
+
+}
+#storiyaa
+{
+    height: 100px;
+    width: 100%;
+    /* border-radius: 50%; */
+    /* background: linear-gradient(to right bottom ,rgba(0, 0, 255, 0.823),rgba(128, 0, 128, 0.895),rgba(255, 166, 0, 0.878)); */
+    /* margin: 12px; */
+    padding: 18px;
+    border-bottom: 1px solid #000;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+/*     
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    object-fit: cover;
+    overflow: hidden; */
+
+    
+    /* display: inline; */
+     
+    /* position: absolute; */
+}
+
+#storiyaa::-webkit-scrollbar
+{
+    display: none;
+}
+
+
+.story 
+{
+    height: 67px;
+    width: 67px;
+    margin-right: 11px;
+    border-radius: 50%;
+    background: radial-gradient(to right bottom ,rgba(0, 0, 255, 0.823),rgba(128, 0, 128, 0.895),rgba(255, 166, 0, 0.878));
+    /* overflow: hidden; */
+    padding: 2px;
+    display: inline-block;
+  
+}
+
+
+.story img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
